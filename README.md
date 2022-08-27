@@ -1,6 +1,8 @@
 # FPL Data Interfaces Submodule
 
-A repository containing the interfaces for the data returned by each of the FPL endpoints.
+This repository contains the interfaces for the data returned by each of the FPL endpoints.
+
+This repository is used as a submodule.
 
 ---
 
