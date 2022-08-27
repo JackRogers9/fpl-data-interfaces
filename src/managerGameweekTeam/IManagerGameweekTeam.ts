@@ -1,6 +1,6 @@
-import { IEventData } from '../managerHistory/IEventData';
 import { IAutomaticSub } from './IAutomaticSub';
 import { IGameweekPick } from './IGameweekPick';
+import { IEventData } from '../managerHistory';
 
 export interface IManagerGameweekTeam {
     activeChip: string;
