@@ -44,4 +44,3 @@ export {
     ISetPieceNotes,
     INote
 } from './setPieceNotes';
-
