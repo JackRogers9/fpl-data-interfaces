@@ -1,3 +1,4 @@
+export { IManagerTransfer } from './managerTransfer/IManagerTransfer';
 export { IStatusDetails, IEventStatus } from './eventStatus';
 export { IFixture, IData, IStat } from './fixtures';
 export { IDreamTeam } from './dreamTeam/IDreamTeam';
