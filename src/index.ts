@@ -1,7 +1,8 @@
-export type { IManagerTransfer } from './managerTransfer/IManagerTransfer';
-export type { IStatusDetails, IEventStatus } from './eventStatus';
-export type { IFixture, IData, IStat } from './fixtures';
-export type { IDreamTeam } from './dreamTeam/IDreamTeam';
+export type { IManagerTransfer } from './endpoints/managerTransfer/IManagerTransfer';
+export type { IGameweekSummary } from './custom/gameweekSummary/IGameweekSummary';
+export type { IStatusDetails, IEventStatus } from './endpoints/eventStatus';
+export type { IFixture, IData, IStat } from './endpoints/fixtures';
+export type { IDreamTeam } from './endpoints/dreamTeam/IDreamTeam';
 
 export type {
     IBootstrapStatic,
@@ -12,36 +13,36 @@ export type {
     IEvent,
     IPhase,
     ITeam
-} from './bootstrapStatic';
+} from './endpoints/bootstrapStatic';
 
 export type {
     IPlayerGameweekExplain,
     IPlayerGameweekStats,
     IPlayerGameweekData,
     IGameweekStats
-} from './liveEvent';
+} from './endpoints/liveEvent';
 
 export type {
     IManagerInformation,
     IManagerLeagues,
     ICupInformation,
     IClassicLeague
-} from './managerInformation';
+} from './endpoints/managerInformation';
 
 export type {
     IManagerGameweekTeam,
     IGameweekPick,
     IAutomaticSub
-} from './managerGameweekTeam';
+} from './endpoints/managerGameweekTeam';
 
 export type {
     IManagerHistory,
     IPreviousSeason,
     IEventData
-} from './managerHistory';
+} from './endpoints/managerHistory';
 
 export type {
     ITeamInformation,
     ISetPieceNotes,
     INote
-} from './setPieceNotes';
+} from './endpoints/setPieceNotes';
