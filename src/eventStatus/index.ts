@@ -1,2 +1,2 @@
-export { IStatusDetails } from './IStatusDetails';
-export { IEventStatus } from './IEventStatus';
+export type { IStatusDetails } from './IStatusDetails';
+export type { IEventStatus } from './IEventStatus';

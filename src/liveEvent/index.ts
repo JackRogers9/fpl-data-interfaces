@@ -1,4 +1,4 @@
-export { IPlayerGameweekExplain } from './IPlayerGameweekExplain';
-export { IPlayerGameweekStats } from './IPlayerGameweekStats';
-export { IPlayerGameweekData } from './IPlayerGameweekData';
-export { IGameweekStats } from './IGameweekStats';
+export type { IPlayerGameweekExplain } from './IPlayerGameweekExplain';
+export type { IPlayerGameweekStats } from './IPlayerGameweekStats';
+export type { IPlayerGameweekData } from './IPlayerGameweekData';
+export type { IGameweekStats } from './IGameweekStats';

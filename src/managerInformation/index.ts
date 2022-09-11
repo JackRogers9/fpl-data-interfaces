@@ -1,4 +1,4 @@
-export { IManagerInformation } from './IManagerInformation';
-export { IManagerLeagues } from './IManagerLeagues';
-export { ICupInformation } from './ICupInformation';
-export { IClassicLeague } from './IClassicLeague';
+export type { IManagerInformation } from './IManagerInformation';
+export type { IManagerLeagues } from './IManagerLeagues';
+export type { ICupInformation } from './ICupInformation';
+export type { IClassicLeague } from './IClassicLeague';

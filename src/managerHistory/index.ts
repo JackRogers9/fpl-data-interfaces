@@ -1,3 +1,3 @@
-export { IManagerHistory } from './IManagerHistory';
-export { IPreviousSeason } from './IPreviousSeason';
-export { IEventData } from './IEventData';
+export type { IManagerHistory } from './IManagerHistory';
+export type { IPreviousSeason } from './IPreviousSeason';
+export type { IEventData } from './IEventData';

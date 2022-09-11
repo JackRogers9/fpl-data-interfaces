@@ -1,3 +1,3 @@
-export { IFixture } from './IFixture';
-export { IData } from './IData';
-export { IStat } from './IStat';
+export type { IFixture } from './IFixture';
+export type { IData } from './IData';
+export type { IStat } from './IStat';

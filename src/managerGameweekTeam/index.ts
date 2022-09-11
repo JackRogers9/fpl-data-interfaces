@@ -1,3 +1,3 @@
-export { IManagerGameweekTeam } from './IManagerGameweekTeam';
-export { IGameweekPick } from './IGameweekPick';
-export { IAutomaticSub } from './IAutomaticSub';
+export type { IManagerGameweekTeam } from './IManagerGameweekTeam';
+export type { IGameweekPick } from './IGameweekPick';
+export type { IAutomaticSub } from './IAutomaticSub';
