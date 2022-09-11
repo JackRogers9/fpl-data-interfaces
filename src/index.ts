@@ -1,9 +1,9 @@
-export { IManagerTransfer } from './managerTransfer/IManagerTransfer';
-export { IStatusDetails, IEventStatus } from './eventStatus';
-export { IFixture, IData, IStat } from './fixtures';
-export { IDreamTeam } from './dreamTeam/IDreamTeam';
+export type { IManagerTransfer } from './managerTransfer/IManagerTransfer';
+export type { IStatusDetails, IEventStatus } from './eventStatus';
+export type { IFixture, IData, IStat } from './fixtures';
+export type { IDreamTeam } from './dreamTeam/IDreamTeam';
 
-export {
+export type {
     IBootstrapStatic,
     IGameSettings,
     IElementStat,
@@ -14,33 +14,33 @@ export {
     ITeam
 } from './bootstrapStatic';
 
-export {
+export type {
     IPlayerGameweekExplain,
     IPlayerGameweekStats,
     IPlayerGameweekData,
     IGameweekStats
 } from './liveEvent';
 
-export {
+export type {
     IManagerInformation,
     IManagerLeagues,
     ICupInformation,
     IClassicLeague
 } from './managerInformation';
 
-export {
+export type {
     IManagerGameweekTeam,
     IGameweekPick,
     IAutomaticSub
 } from './managerGameweekTeam';
 
-export {
+export type {
     IManagerHistory,
     IPreviousSeason,
     IEventData
 } from './managerHistory';
 
-export {
+export type {
     ITeamInformation,
     ISetPieceNotes,
     INote
