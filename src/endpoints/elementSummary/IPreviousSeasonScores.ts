@@ -1,4 +1,4 @@
-export interface IPastScores {
+export interface IPreviousSeasonScores {
     seasonName: string;
     elementCode: number;
     startCost: number;

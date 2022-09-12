@@ -33,7 +33,7 @@ export type {
     IElementSummary,
     IElementHistory,
     IFutureFixture,
-    IPastScores
+    IPreviousSeasonScores
 } from './endpoints/elementSummary';
 
 export type {
