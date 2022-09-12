@@ -30,6 +30,13 @@ export type {
 } from './endpoints/managerInformation';
 
 export type {
+    IElementSummary,
+    IElementHistory,
+    IFutureFixture,
+    IPastScores
+} from './endpoints/elementSummary';
+
+export type {
     IManagerGameweekTeam,
     IGameweekPick,
     IAutomaticSub
