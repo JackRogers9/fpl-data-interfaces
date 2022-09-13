@@ -1,5 +1,6 @@
 export interface IPlayerStats {
     id: number;
+    firstName: string;
     secondName: string;
     wasHome: boolean;
     totalPoints: number;
