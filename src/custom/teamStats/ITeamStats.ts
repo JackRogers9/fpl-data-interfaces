@@ -5,6 +5,6 @@ import { IPlayerStats } from './IPlayerStats';
 export interface ITeamStats {
     automaticSubs: IAutomaticSub[];
     entryHistory: IEventData;
-    players: IPlayerStats[];
+    playerStats: IPlayerStats[];
     activeChip: string;
 }
