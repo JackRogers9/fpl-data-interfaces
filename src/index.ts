@@ -53,3 +53,8 @@ export type {
     ISetPieceNotes,
     INote
 } from './endpoints/setPieceNotes';
+
+export type {
+    IPlayerStats,
+    ITeamStats,
+} from './custom/teamStats';
