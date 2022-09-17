@@ -12,4 +12,5 @@ export interface IPlayerStats {
     position: number;
     isCaptain: boolean;
     isViceCaptain: boolean;
+    kitImage?: any;
 }
