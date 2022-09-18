@@ -1,5 +1,6 @@
 export interface IPlayerStats {
     id: number;
+    webName: string;
     firstName: string;
     secondName: string;
     wasHome: boolean;
